@@ -1,12 +1,12 @@
 variable "master_ip" {
   description = "IP address of the master node"
-  default     = "192.168.255.152"
+  default     = ""
 }
 
 variable "worker_ips" {
   description = "List of IP addresses of worker nodes"
   type        = list(string)
-  default     = ["192.168.255.151"]
+  default     = ["",""]
 }
 
 variable "usernames" {
